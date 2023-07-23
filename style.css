@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+    text-align: center;
+  }
+  
+  .flag {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 50px auto;
+    border: 1px solid #000;
+  }
+  
+  .stripe {
+    position: absolute;
+    width: 100%;
+    height: 33.33%;
+  }
+  
+  .saffron {
+    background-color: #FF9933; /* Saffron color */
+    top: 0;
+  }
+  
+  .white {
+    background-color: #FFFFFF; /* White color */
+    top: 33.33%;
+  }
+  
+  .green {
+    background-color: #138808; /* Green color */
+    top: 66.66%;
+  }
+  
+  .chakra {
+    position: absolute;
+    top: 36%; /* Adjust the top value to center the Ashoka Chakra */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .chakra img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
